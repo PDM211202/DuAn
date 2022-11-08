@@ -1,0 +1,41 @@
+https://github.com/khaitruong1301/react_cyberlearn_khoahoc_01
+
+https://github.com/khaitruong1301/react_cyberlearn_khoahoc_02
+
+https://github.com/khaitruong1301/react_cyberlearn_khoahoc_03
+
+https://github.com/khaitruong1301/react_cyberlearn_khoahoc_04
+
+''
+https://github.com/khaitruong1301/react_cyberlearn_khoahoc_05
+
+Link source layout: https://anotepad.com/notes/h6wn5nmc
+
+Link source layout: https://mambaui.com/components/sidebar
+
+Link source layout: https://tailwindui.com/components/application-ui/overlays/modals
+
+Link source layout: https://tailblocks.cc/
+
+Data: https://docs.google.com/document/d/1L9H8dizls_5zryCwuY5JBI2AKFoUPkgizC0FhgFeJ_k/edit?usp=sharing
+
+------------
+
+https://react-slick.neostack.com/docs/example/multiple-items
+
+http://movieapi.cyberlearn.vn/swagger/index.html
+
+https://docs.google.com/document/d/12N-u6ox6gt8FgML1Y3zbjipxIZRTN_vrtisJRzWy87c/edit
+
+https://freefrontend.com/css-card-hover-effects/
+
+http://movieapi.cyberlearn.vn/api/QuanLyRap/LayThongTinLichChieuHeThongRap?maNhom=GP01
+''
+
+https://github.com/khaitruong1301/react_cyberlearn_khoahoc_06
+https://shop.cyberlearn.vn/swagger/index.html
+
+https://github.com/khaitruong1301/react_cyberlearn_khoahoc_06_Chuong2
+Api : http://svcy.myclass.vn/swagger/ui/index#!/Product/Product_SearchByName
+
+https://github.com/khaitruong1301/react_cyberlearn_khoahoc_06_Chuong3
