@@ -1,0 +1,22 @@
+header {
+	.navbar {
+		.navbar-brand {
+			.logo {
+				width: $logo-width;
+				height: $logo-height;
+			}
+		}
+		.collapse {
+			.navbar-nav {
+				.nav-item {
+					.nav-link {
+						color: #fff;
+						padding: 0 $pd-9;
+						line-height: $line-height-4;
+						margin: $mg-1 $mg-2;
+					}
+				}
+			}
+		}
+	}
+}

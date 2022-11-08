@@ -1,0 +1,518 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 11px;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+#header .animated {
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+}
+
+@-webkit-keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 10%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 10%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+@-webkit-keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -10%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -10%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+@-webkit-keyframes fadeOutDown {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    transform: translate3d(0, 10%, 0);
+  }
+}
+@keyframes fadeOutDown {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    transform: translate3d(0, 10%, 0);
+  }
+}
+@-webkit-keyframes fadeOutUp {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    transform: translate3d(0, -10%, 0);
+  }
+}
+@keyframes fadeOutUp {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    transform: translate3d(0, -10%, 0);
+  }
+}
+.carousel {
+  overflow: hidden;
+}
+
+.carousel-control-prev, .carousel-control-next {
+  width: 5%;
+}
+
+.carousel-control-prev {
+  left: -1.5rem;
+}
+
+.carousel-control-next {
+  right: -1.5rem;
+}
+
+.img-fluid {
+  width: 100% !important;
+  height: 100%;
+}
+
+#img-1 {
+  background: linear-gradient(#bbbdc0, #f5f5f5, #f5f5f5);
+}
+
+.vehicle-product:hover > #img-1 {
+  background: linear-gradient(#3C4C5C, #f5f5f5, #f5f5f5);
+}
+
+.delay-1 {
+  -webkit-animation-delay: 0.15s;
+          animation-delay: 0.15s;
+}
+
+#img-2 {
+  background: linear-gradient(#bbbdc0, #f5f5f5, #f5f5f5);
+}
+
+.vehicle-product:hover > #img-2 {
+  background: linear-gradient(#5E5E5E, #f5f5f5, #f5f5f5);
+}
+
+.delay-2 {
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
+}
+
+#img-3 {
+  background: linear-gradient(#bbbdc0, #f5f5f5, #f5f5f5);
+}
+
+.vehicle-product:hover > #img-3 {
+  background: linear-gradient(#14409A, #f5f5f5, #f5f5f5);
+}
+
+.delay-3 {
+  -webkit-animation-delay: 0.45s;
+          animation-delay: 0.45s;
+}
+
+#img-4 {
+  background: linear-gradient(#bbbdc0, #f5f5f5, #f5f5f5);
+}
+
+.vehicle-product:hover > #img-4 {
+  background: linear-gradient(#C0BAB5, #f5f5f5, #f5f5f5);
+}
+
+.delay-4 {
+  -webkit-animation-delay: 0.6s;
+          animation-delay: 0.6s;
+}
+
+#img-5 {
+  background: linear-gradient(#bbbdc0, #f5f5f5, #f5f5f5);
+}
+
+.vehicle-product:hover > #img-5 {
+  background: linear-gradient(#5C5C5C, #f5f5f5, #f5f5f5);
+}
+
+.delay-5 {
+  -webkit-animation-delay: 0.75s;
+          animation-delay: 0.75s;
+}
+
+#img-6 {
+  background: linear-gradient(#bbbdc0, #f5f5f5, #f5f5f5);
+}
+
+.vehicle-product:hover > #img-6 {
+  background: linear-gradient(#33569C, #f5f5f5, #f5f5f5);
+}
+
+.delay-6 {
+  -webkit-animation-delay: 0.9s;
+          animation-delay: 0.9s;
+}
+
+#swiper-slider .slide-1 {
+  background: url("../img/banner-1.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+@media screen and (max-width: 768px) {
+  #swiper-slider .slide-1 {
+    background: url("../img/banner-1-xs.jpg");
+    background-size: cover;
+    background-position: unset;
+  }
+}
+@media screen and (max-width: 576px) {
+  #swiper-slider .slide-1 {
+    background: url("../img/banner-1-xs.jpg");
+    background-size: cover;
+    background-position: center center;
+  }
+}
+
+#swiper-slider .slide-2 {
+  background: url("../img/banner-2.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+@media screen and (max-width: 768px) {
+  #swiper-slider .slide-2 {
+    background: url("../img/banner-2-xs.jpg");
+    background-size: cover;
+    background-position: unset;
+  }
+}
+@media screen and (max-width: 576px) {
+  #swiper-slider .slide-2 {
+    background: url("../img/banner-2-xs.jpg");
+    background-size: cover;
+    background-position: center center;
+  }
+}
+
+#swiper-slider .slide-3 {
+  background: url("../img/banner-3.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+@media screen and (max-width: 768px) {
+  #swiper-slider .slide-3 {
+    background: url("../img/banner-3-xs.jpg");
+    background-size: cover;
+    background-position: unset;
+  }
+}
+@media screen and (max-width: 576px) {
+  #swiper-slider .slide-3 {
+    background: url("../img/banner-3-xs.jpg");
+    background-size: cover;
+    background-position: center center;
+  }
+}
+
+#swiper-slider .slide-4 {
+  background: url("../img/banner-4.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+@media screen and (max-width: 768px) {
+  #swiper-slider .slide-4 {
+    background: url("../img/banner-4-xs.jpg");
+    background-size: cover;
+    background-position: unset;
+  }
+}
+@media screen and (max-width: 576px) {
+  #swiper-slider .slide-4 {
+    background: url("../img/banner-4-xs.jpg");
+    background-size: cover;
+    background-position: center center;
+  }
+}
+
+.carousel-inner .item-1 {
+  background: url("../img/slider-1.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+@media screen and (max-width: 768px) {
+  .carousel-inner .item-1 {
+    background: url("../img/slider-1-xs.jpg");
+    background-size: cover;
+    background-position: unset;
+  }
+}
+@media screen and (max-width: 576px) {
+  .carousel-inner .item-1 {
+    background: url("../img/slider-1-xs.jpg");
+    background-size: cover;
+    background-position: center center;
+  }
+}
+
+.carousel-inner .item-2 {
+  background: url("../img/slider-2.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+@media screen and (max-width: 768px) {
+  .carousel-inner .item-2 {
+    background: url("../img/slider-2-xs.jpg");
+    background-size: cover;
+    background-position: unset;
+  }
+}
+@media screen and (max-width: 576px) {
+  .carousel-inner .item-2 {
+    background: url("../img/slider-2-xs.jpg");
+    background-size: cover;
+    background-position: center center;
+  }
+}
+
+.carousel-inner .item-3 {
+  background: url("../img/slider-3.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+@media screen and (max-width: 768px) {
+  .carousel-inner .item-3 {
+    background: url("../img/slider-3-xs.jpg");
+    background-size: cover;
+    background-position: unset;
+  }
+}
+@media screen and (max-width: 576px) {
+  .carousel-inner .item-3 {
+    background: url("../img/slider-3-xs.jpg");
+    background-size: cover;
+    background-position: center center;
+  }
+}
+
+.carousel-inner .item-4 {
+  background: url("../img/slider-4.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+@media screen and (max-width: 768px) {
+  .carousel-inner .item-4 {
+    background: url("../img/slider-4-xs.jpg");
+    background-size: cover;
+    background-position: unset;
+  }
+}
+@media screen and (max-width: 576px) {
+  .carousel-inner .item-4 {
+    background: url("../img/slider-4-xs.jpg");
+    background-size: cover;
+    background-position: center center;
+  }
+}
+
+.carousel-inner .item-5 {
+  background: url("../img/slider-5.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+@media screen and (max-width: 768px) {
+  .carousel-inner .item-5 {
+    background: url("../img/slider-5-xs.jpg");
+    background-size: cover;
+    background-position: unset;
+  }
+}
+@media screen and (max-width: 576px) {
+  .carousel-inner .item-5 {
+    background: url("../img/slider-5-xs.jpg");
+    background-size: cover;
+    background-position: center center;
+  }
+}
+
+.function-1 {
+  background: url("../img/item-1.jpg");
+  background-size: 120%;
+  background-position: center 0;
+  background-repeat: no-repeat;
+  background-color: #fff;
+}
+@media screen and (min-width: 440px) and (max-width: 576px) {
+  .function-1 {
+    background-size: 100%;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .function-1 {
+    background-size: 150%;
+  }
+}
+
+.function-2 {
+  background: url("../img/item-2.jpg");
+  background-size: 120%;
+  background-position: center 0;
+  background-repeat: no-repeat;
+  background-color: #fff;
+}
+@media screen and (min-width: 440px) and (max-width: 576px) {
+  .function-2 {
+    background-size: 100%;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .function-2 {
+    background-size: 150%;
+  }
+}
+
+.function-3 {
+  background: url("../img/item-3.jpg");
+  background-size: 120%;
+  background-position: center 0;
+  background-repeat: no-repeat;
+  background-color: #fff;
+}
+@media screen and (min-width: 440px) and (max-width: 576px) {
+  .function-3 {
+    background-size: 100%;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .function-3 {
+    background-size: 150%;
+  }
+}
+
+.function-4 {
+  background: url("../img/item-4.jpg");
+  background-size: 120%;
+  background-position: center 0;
+  background-repeat: no-repeat;
+  background-color: #fff;
+}
+@media screen and (min-width: 440px) and (max-width: 576px) {
+  .function-4 {
+    background-size: 100%;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .function-4 {
+    background-size: 150%;
+  }
+}
+
+.discover-item-1 {
+  background: url("../img/discover-1.jpg");
+  background-size: 120%;
+  background-position: center 0;
+  background-repeat: no-repeat;
+  background-color: #fff;
+}
+
+.discover-item-2 {
+  background: url("../img/discover-2.jpg");
+  background-size: 120%;
+  background-position: center 0;
+  background-repeat: no-repeat;
+  background-color: #fff;
+}
+
+.discover-item-3 {
+  background: url("../img/discover-3.jpg");
+  background-size: 120%;
+  background-position: center 0;
+  background-repeat: no-repeat;
+  background-color: #fff;
+}
+
+.discover-item-4 {
+  background: url("../img/discover-4.jpg");
+  background-size: 120%;
+  background-position: center 0;
+  background-repeat: no-repeat;
+  background-color: #fff;
+}
+
+.discover-item-5 {
+  background: url("../img/discover-5.jpg");
+  background-size: 120%;
+  background-position: center 0;
+  background-repeat: no-repeat;
+  background-color: #fff;
+}
+
+#carousel {
+  height: 600px;
+}
+#carousel .carousel-inner .carousel-item img {
+  width: 100%;
+  height: 600px;
+}
+
+#list-film .list .list-btn {
+  border: 2px solid 1px solid #4f91ca;
+  border-radius: 40px;
+  background-color: #000;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+#list-film .list .list-btn:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+header .navbar .navbar-brand .logo {
+  width: 60px;
+  height: 60px;
+}
+header .navbar .collapse .navbar-nav .nav-item .nav-link {
+  color: #fff;
+  padding: 0 1rem;
+  line-height: 40px;
+  margin: 5px 20px;
+}/*# sourceMappingURL=main.css.map */

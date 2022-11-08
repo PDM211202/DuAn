@@ -1,0 +1,7 @@
+#list-film {
+    .list {
+        .list-btn {
+            @include button($border-1, #000, #fff, 10px, #fff,#000)
+        }
+    }
+}
