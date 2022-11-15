@@ -11,6 +11,10 @@ div {
   box-sizing: border-box;
 }
 
+.pd-tb-8 {
+  padding: 80px 0;
+}
+
 #header .animated {
   -webkit-animation-duration: 0.3s;
   animation-duration: 0.3s;
@@ -491,7 +495,7 @@ div {
   height: 600px;
 }
 
-#list-film .list .list-btn {
+#list .list-content .list-btn {
   border: 2px solid 1px solid #4f91ca;
   border-radius: 40px;
   background-color: #000;
@@ -501,9 +505,19 @@ div {
   font-size: 1.4rem;
   cursor: pointer;
 }
-#list-film .list .list-btn:hover {
+#list .list-content .list-btn:hover {
   background-color: #fff;
   color: #000;
+}
+#list .list-film .card .card-img-top {
+  padding-top: 10px;
+  width: 100%;
+}
+#list .list-film .card .list-film-btn {
+  width: 100%;
+  background: rgb(42, 137, 201);
+  border: none;
+  padding: 5px 0;
 }
 
 header .navbar .navbar-brand .logo {

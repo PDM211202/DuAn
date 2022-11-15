@@ -1,7 +1,21 @@
-#list-film {
-    .list {
+#list {
+    .list-content {
         .list-btn {
-            @include button($border-1, #000, #fff, 10px, #fff,#000)
+            @include button($border-1, #000, #fff, 10px, #fff, #000);
+        }
+    }
+    .list-film {
+        .card {
+            .card-img-top {
+                padding-top: 10px;
+                width: 100%;
+            }
+            .list-film-btn {
+                width: 100%;
+                background: rgb(42, 137, 201);
+                border: none;
+                padding: 5px 0;
+            }
         }
     }
 }
